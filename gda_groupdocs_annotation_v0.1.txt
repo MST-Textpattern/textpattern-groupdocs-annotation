@@ -1,0 +1,54 @@
+# Name: gda_groupdocs_annotation v0.1 
+# Type: Admin side plugin
+# GroupDocs is a next generation Document Management solution that makes it easier for businesses to collaborate, share and work with documents online. So, organise, view, annotate, compare, assemble and share all your documents with Textpattern
+# Author: Pavel Teplitsky
+# URL: groupdocs.com
+# Recommended load order: 5
+
+# .....................................................................
+# This is a plugin for Textpattern - http://textpattern.com/
+# To install: textpattern > admin > plugins
+# Paste the following text into the 'Install plugin' box:
+# .....................................................................
+
+YToxMTp7czo0OiJuYW1lIjtzOjI0OiJnZGFfZ3JvdXBkb2NzX2Fubm90YXRpb24iO3M6Njoi
+YXV0aG9yIjtzOjE1OiJQYXZlbCBUZXBsaXRza3kiO3M6MTA6ImF1dGhvcl91cmkiO3M6MTM6
+Imdyb3VwZG9jcy5jb20iO3M6NzoidmVyc2lvbiI7czozOiIwLjEiO3M6MTE6ImRlc2NyaXB0
+aW9uIjtzOjI0MzoiR3JvdXBEb2NzIGlzIGEgbmV4dCBnZW5lcmF0aW9uIERvY3VtZW50IE1h
+bmFnZW1lbnQgc29sdXRpb24gdGhhdCBtYWtlcyBpdCBlYXNpZXIgZm9yIGJ1c2luZXNzZXMg
+dG8gY29sbGFib3JhdGUsIHNoYXJlIGFuZCB3b3JrIHdpdGggZG9jdW1lbnRzIG9ubGluZS4g
+U28sIG9yZ2FuaXNlLCB2aWV3LCBhbm5vdGF0ZSwgY29tcGFyZSwgYXNzZW1ibGUgYW5kIHNo
+YXJlIGFsbCB5b3VyIGRvY3VtZW50cyB3aXRoIFRleHRwYXR0ZXJuIjtzOjQ6ImNvZGUiO3M6
+MTYyMjoiLyoqDQogKiBHcm91cERvY3MgYW5ub3RhdGlvbiBQbHVnaW4gdjAuMS4wDQogKiBB
+dXRob3I6IFBhdmVsIFRlcGxpdHNreQ0KICogRGF0ZTogMDcuMTEuMjAxMg0KICoNCiAqIEJ5
+IGRlZmF1bHQ6IFRleHRwYXR0ZXJuIGRvZXNuJ3QgaGF2ZSBXWVNJV1lHIEVkaXRvciAoZXgu
+OiBUaW55TUNFKSwgbWVhbnMgdGhhdCB5b3Ugd2lsbCBiZSBzZWVpbmcNCiAqIG9ubHkgPGlm
+cmFtZT4gdGFnIHdoaWxlIGVkaXRpbmcgcGFnZS4gU2VlIHJlc3VsdHMgaW4gIkFydGljbGUg
+cHJldmlldyIgb3IgeW91ciBzaXRlLg0KICovDQoNCi8vIGFkbWluIHVzZXIgb25seQ0KaWYg
+KEB0eHBpbnRlcmZhY2UgPT0gJ2FkbWluJykgew0KICAgIGFkZF9wcml2cygnYXJ0aWNsZScs
+ICcxJyk7IC8vIFB1Ymxpc2hlcnMgb25seQ0KICAgIHJlZ2lzdGVyX2NhbGxiYWNrKCdnZGFf
+YXBwZW5kX2J1dHRvbicsICdhcnRpY2xlX3VpJywgJ3RpdGxlJyk7DQp9DQoNCi8vIGFkZCBH
+cm91cERvY3MgYnV0dG9uDQpmdW5jdGlvbiBnZGFfYXBwZW5kX2J1dHRvbigkZXZlbnQsICRz
+dGVwLCAkZGF0YSwgJHJzKSB7DQoNCiAgICAkanM9IGdkYV9qYXZhc2NyaXB0KCk7DQogICAg
+JGJ1dHRvbiA9ICc8aW5wdXQgdHlwZT0iYnV0dG9uIiB2YWx1ZT0iSW5zZXJ0IEdyb3VwRG9j
+cyBGaWxlIElEIiBvbmNsaWNrPSJnZGFfaW5zZXJ0X2ZpbGVpZCgpIj4nOw0KICAgICRvdXRw
+dXRfcmVzdWx0ID0gaXNzZXQoJHJzWyd1cmxfdGl0bGUnXSkgPyAnPGJyLz4nIC4gJGpzLiRi
+dXR0b24gOiAnJzsNCiAgICByZXR1cm4gJGRhdGEuJG91dHB1dF9yZXN1bHQ7DQp9DQoNCi8v
+IGFkZCBqYXZhc2NyaXB0DQpmdW5jdGlvbiBnZGFfamF2YXNjcmlwdCgpew0KICAgIC8vIGpx
+dWVyeSBpcyB3b3JraW5nIGhlcmUNCiAgICAkcj0gJzxzY3JpcHQ+JzsNCiAgICAkci49ICdm
+dW5jdGlvbiBnZGFfaW5zZXJ0X2ZpbGVpZCgpew0KDQogICAgICAgICAgICAvLyBFbnRlciBH
+cm91cERvY3MgRmlsZSBJRA0KICAgICAgICAgICAgdmFyIGFucz1wcm9tcHQoIkVudGVyIEdy
+b3VwRG9jcyBGaWxlIElEOiIsIiIpOw0KICAgICAgICAgICAgaWYoYW5zLmxlbmd0aDw1MCkg
+eyBhbGVydCgiU29ycnksIGJ1dCB0aGlzIEZpbGUgSUQgaXMgdG9vIHNob3J0Iik7IHJldHVy
+biBmYWxzZTsgfQ0KICAgICAgICAgICAgaWYoYW5zLmxlbmd0aD43MCkgeyBhbGVydCgiU29y
+cnksIGJ1dCB0aGlzIEZpbGUgSUQgaXMgdG9vIGJpZyIpOyByZXR1cm4gZmFsc2U7IH0NCg0K
+ICAgICAgICAgICAgdmFyIGdkYV9pZnJhbWUgPSBcJzxpZnJhbWUgc3JjPSJodHRwczovL2Fw
+cHMuZ3JvdXBkb2NzLmNvbS9kb2N1bWVudC1hbm5vdGF0aW9uL2VtYmVkL1wnK2FucytcJyIg
+ZnJhbWVib3JkZXI9IjAiIHdpZHRoPSI2MDAiIGhlaWdodD0iNDAwIj48L2lmcmFtZT5cJzsN
+Cg0KICAgICAgICAgICAgLy8gaW5zZXJ0IGluIHRoZSBlbmQgb2YgPHRleHRhcmVhIGlkPSJi
+b2R5Ij4NCiAgICAgICAgICAgIHZhciBnZGFfYm9keSA9ICQoInRleHRhcmVhI2JvZHkiKS5o
+dG1sKCkrZ2RhX2lmcmFtZTsNCiAgICAgICAgICAgICQoInRleHRhcmVhI2JvZHkiKS5odG1s
+KGdkYV9ib2R5KTsNCiAgICB9JzsNCiAgICAkci49ICc8L3NjcmlwdD4nOw0KICAgIHJldHVy
+biAkcjsNCn0iO3M6NDoidHlwZSI7czoxOiIzIjtzOjU6Im9yZGVyIjtzOjE6IjUiO3M6NToi
+ZmxhZ3MiO3M6MToiMCI7czo0OiJoZWxwIjtiOjA7czozOiJtZDUiO3M6MzI6ImI5MWUyOTky
+MDU2OTY5MTc2MDg2OGZhYTU0MDVkOWJkIjt9
