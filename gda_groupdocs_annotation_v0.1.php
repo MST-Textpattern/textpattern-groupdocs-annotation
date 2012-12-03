@@ -1,11 +1,6 @@
 <?php
 
 // This is a PLUGIN TEMPLATE.
-// .....................................................................
-// This is a plugin for Textpattern - http://textpattern.com/
-// To install: textpattern > admin > plugins
-// Paste the following text into the 'Install plugin' box:
-// .....................................................................
 
 // Copy this file to a new name like abc_myplugin.php.  Edit the code, then
 // run this file at the command line to produce a plugin for distribution:
@@ -58,8 +53,8 @@ if (!defined('txpinterface'))
  * GroupDocs annotation Plugin v0.1.0
  * Author: Pavel Teplitsky
  * Date: 07.11.2012
- * 
- * By default: Textpattern doesn't have WYSIWYG Editor (ex.: TinyMCE), means that you will be seeing 
+ *
+ * By default: Textpattern doesn't have WYSIWYG Editor (ex.: TinyMCE), means that you will be seeing
  * only <iframe> tag while editing page. See results in "Article preview" or your site.
  */
 
@@ -71,9 +66,9 @@ if (@txpinterface == 'admin') {
 
 // add GroupDocs button
 function gda_append_button($event, $step, $data, $rs) {
-    
+
     $js= gda_javascript();
-    $button = '<input type="button" value="Insert GroupDocs File ID" onclick="gda_insert_fileid()">';
+    $button = '<input type="button" value="Insert GroupDocs Annotation File ID" onclick="gda_insert_fileid()">';
     $output_result = isset($rs['url_title']) ? '<br/>' . $js.$button : '';
     return $data.$output_result;
 }
@@ -83,14 +78,16 @@ function gda_javascript(){
     // jquery is working here
     $r= '<script>';
     $r.= 'function gda_insert_fileid(){
-        
+
             // Enter GroupDocs File ID
+            var cmsName = "Textpattern"
+            var cmsVersion = "4.5.2"
             var ans=prompt("Enter GroupDocs File ID:","");
             if(ans.length<50) { alert("Sorry, but this File ID is too short"); return false; }
             if(ans.length>70) { alert("Sorry, but this File ID is too big"); return false; }
 
-            var gda_iframe = \'<iframe src="https://apps.groupdocs.com/document-annotation/embed/\'+ans+\'" frameborder="0" width="600" height="400"></iframe>\';
-            
+            var gda_iframe = \'<iframe src="https://apps.groupdocs.com/document-annotation/embed/\'+ans+\'?&referer=\'+cmsName+\'/\'+cmsVersion+\'" frameborder="0" width="600" height="400"></iframe>\';
+
             // insert in the end of <textarea id="body">
             var gda_body = $("textarea#body").html()+gda_iframe;
             $("textarea#body").html(gda_body);
@@ -98,7 +95,6 @@ function gda_javascript(){
     $r.= '</script>';
     return $r;
 }
-
 # --- END PLUGIN CODE ---
 if (0) {
 ?>
