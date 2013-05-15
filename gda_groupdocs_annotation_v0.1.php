@@ -18,7 +18,7 @@ $plugin['name'] = 'gda_groupdocs_annotation';
 # $plugin['allow_html_help'] = 1;
 
 $plugin['version'] = '0.1';
-$plugin['author'] = ' GroupDocs Marketplace Team';
+$plugin['author'] = 'Pavel Teplitsky';
 $plugin['author_uri'] = 'groupdocs.com';
 $plugin['description'] = 'GroupDocs is a next generation Document Management solution that makes it easier for businesses to collaborate, share and work with documents online. So, organise, view, annotate, compare, assemble and share all your documents with Textpattern';
 
@@ -51,7 +51,7 @@ if (!defined('txpinterface'))
 # --- BEGIN PLUGIN CODE ---
 /**
  * GroupDocs annotation Plugin v0.1.0
- * Author: Pavel Teplitsky
+ * Author:  GroupDocs Marketplace Team
  * Date: 07.11.2012
  *
  * By default: Textpattern doesn't have WYSIWYG Editor (ex.: TinyMCE), means that you will be seeing
@@ -86,7 +86,7 @@ function gda_javascript(){
             if(ans.length<50) { alert("Sorry, but this File ID is too short"); return false; }
             if(ans.length>70) { alert("Sorry, but this File ID is too big"); return false; }
 
-            var gda_iframe = \'<iframe src="https://apps.groupdocs.com/document-annotation/embed/\'+ans+\'?&referer=\'+cmsName+\'/\'+cmsVersion+\'" frameborder="0" width="600" height="400"></iframe>\';
+            var gda_iframe = \'<iframe src="https://apps.groupdocs.com/document-annotation/embed/\'+ans+\'?&referer=\'+cmsName+\'/\'+cmsVersion+\'" frameborder="0" width="600" height="400">If you can see this text, your browser does not support iframes. Please enable iframe support in your browser or use the latest version of any popular web browsers such as Mozilla FireFox or Google Chrome. See how to <a href="http://groupdocs.com/apps/annotation"> annotate pdf online</a> in a web browser.</iframe>\';
 
             // insert in the end of <textarea id="body">
             var gda_body = $("textarea#body").html()+gda_iframe;
