@@ -86,7 +86,7 @@ function gda_javascript(){
             if(ans.length<50) { alert("Sorry, but this File ID is too short"); return false; }
             if(ans.length>70) { alert("Sorry, but this File ID is too big"); return false; }
 
-            var gda_iframe = \'<iframe src="https://apps.groupdocs.com/document-annotation/embed/\'+ans+\'?&referer=\'+cmsName+\'/\'+cmsVersion+\'" frameborder="0" width="600" height="400">If you can see this text, your browser does not support iframes. Please enable iframe support in your browser or use the latest version of any popular web browsers such as Mozilla FireFox or Google Chrome. See how to <a href="http://groupdocs.com/apps/annotation"> annotate pdf online</a> in a web browser.</iframe>\';
+            var gda_iframe = \'<iframe src="https://apps.groupdocs.com/document-annotation/embed/\'+ans+\'?&referer=\'+cmsName+\'/\'+cmsVersion+\'?&referer=textpattern-Annotation/1.0" frameborder="0" width="600" height="400">If you can see this text, your browser does not support iframes. Please enable iframe support in your browser or use the latest version of any popular web browsers such as Mozilla FireFox or Google Chrome. See how to <a href="http://groupdocs.com/apps/annotation"> annotate pdf online</a> in a web browser.</iframe>\';
 
             // insert in the end of <textarea id="body">
             var gda_body = $("textarea#body").html()+gda_iframe;
