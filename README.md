@@ -17,4 +17,4 @@ With GroupDocs Annotation plugin for Textpattern you can easily view on [annotat
 * [Embed DOC, DOCX, PDF Annotation in your Textpattern CMS website] (http://textpattern.org/plugins/1267/gda_groupdocs_annotation_v01)
 * [See source code for GroupDocs Annotation plugin for Textpattern CMS](https://github.com/groupdocs/textpattern-groupdocs-annotation-source)
 
-###Created by [GroupDocs Marketplace Team](http://groupdocs.com/marketplace/).
+###Created by [GroupDocs Marketplace Team](http://groupdocs.com/marketplace/plugins).
